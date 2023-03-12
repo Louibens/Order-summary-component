@@ -135,7 +135,7 @@ button:hover {
     }
 
     #annual {
-        margin-right: 0;
+        margin-right: -10px;
         margin-left: -35px;
         
     }
