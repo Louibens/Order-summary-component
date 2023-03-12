@@ -116,3 +116,27 @@ button:hover {
     color: hsla(245, 75%, 52%, 0.7);
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+
+    #hero {
+        background: url(illustration-hero.svg);
+        width: 350px;
+        height: 220px;
+        border-radius: 20px 20px 0 0 ;
+    }
+
+    #container {
+        width: 350px;
+        height: 650px;
+        background-color: hsl(225, 100%, 98%);
+        border-radius: 20px;
+        
+    }
+
+    #annual {
+        margin-right: 0;
+        margin-left: -35px;
+        
+    }
+}
